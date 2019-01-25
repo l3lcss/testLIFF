@@ -11,6 +11,9 @@ export default {
   name: 'home',
   components: {
     HelloWorld
+  },
+  mounted () {
+    console.log('mounted in Home.vue')
   }
 }
 </script>
