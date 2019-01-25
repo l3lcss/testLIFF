@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    Home.vue
     HelloWorld msg="Welcome to Your Vue.js App"/
   </div>
 </template>
@@ -12,8 +13,8 @@ export default {
   components: {
     // HelloWorld
   },
-  mounted () {
-    window.alert('mounted in Home.vue')
+  beforeCreate () {
+    window.alert('beforeCreate in Home.vue')
   }
 }
 </script>
