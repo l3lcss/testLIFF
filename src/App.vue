@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     App.vue
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
@@ -10,9 +10,7 @@
 export default {
   name: 'app',
   beforeCreate () {
-    this.$liff.init(data => {
-      window.alert(JSON.stringify(data)) 
-     })
+    this.$liff.init()
   }
 }
 </script>
