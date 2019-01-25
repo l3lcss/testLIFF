@@ -10,8 +10,7 @@ export default {
   name: 'app',
   beforeCreate () {
     this.$liff.init(data => {
-      window.alert('data' + data) 
-      console.log(data, 'data')
+      window.alert(JSON.stringify(data)) 
      })
   }
 }
