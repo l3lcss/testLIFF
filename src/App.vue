@@ -10,7 +10,7 @@
 export default {
   name: 'app',
   beforeCreate () {
-    this.$liff.init()
+    // this.$liff.init()
   }
 }
 </script>
